@@ -1,18 +1,18 @@
 {
-name: pdfcreator,
-version: 1.0.0,
-description: PDF creation utility,
-main: index.js,
-scripts: {
-test: echo \Error: no test specified\&& exit 1
+"name": "pdfcreator",
+"version": "1.0.0",
+"description": "PDF creation utility",
+"main": "pdf.js",
+"scripts": {
+"test": "echo \Error: no test specified\&& exit 1"
 },
-keywords: [
-pdf
+"keywords": [
+"pdf"
 ],
-author: venugopal.upputuri@gmail.com,
-license: UNLICENSED,
-dependencies: {
-express: ^4.17.1,
-puppeteer: ^1.17.0
+"author": "venuupputuri",
+"license": "UNLICENSED",
+"dependencies": {
+"express": "^4.17.1",
+"puppeteer": "^1.17.0"
 }
 }
