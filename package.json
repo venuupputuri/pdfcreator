@@ -4,7 +4,7 @@
 "description": "PDF creation utility",
 "main": "pdf.js",
 "scripts": {
-"test": "echo \Error: no test specified\&& exit 1"
+"start": "node pdf.js"
 },
 "keywords": [
 "pdf"
