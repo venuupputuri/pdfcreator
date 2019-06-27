@@ -28,7 +28,7 @@ args: ['--no-sandbox', '--disable-setuid-sandbox']
 //  printBackground: true, 
 //  format: 'Letter'
   //PreferCSSPageSize: true 
-}); 
+//}); 
 
 const page = await browser.newPage()
     await page.goto('https://www.medium.com')
@@ -37,7 +37,7 @@ const page = await browser.newPage()
 // Close the headless browser
 browser.close();
 //return pdf;
-}
+};
 
 app.post('/generatePdf', async function(req, res, next) {
    const pdf = await generatePdf(req);
